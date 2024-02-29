@@ -13,12 +13,12 @@
     "postcss": "^8.4.31"
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "start": "cross-env BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "perf": "npx tensile --config tensile.config.mjs --file dist/Test.bench.mjs"
-    
+    "perf": "npx tensile --config tensile.config.mjs --file dist/Test.bench.mjs",
+    "perf:dev": "npx tensile --config tensile.config.mjs --file dist/Test.bench.mjs --dev"
   },
   "eslintConfig": {
     "extends": [
@@ -39,11 +39,14 @@
     ]
   },
   "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
     "@tensile-perf/react": "^0.1.12",
     "@vitejs/plugin-react": "^4.1.1",
+    "cross-env": "^7.0.3",
     "jsdom": "^22.1.0",
+    "rollup": "^3.29.4",
+    "rollup-plugin-external-globals": "^0.9.2",
     "vite": "^4.5.2",
-    "vitest": "^0.34.6",
-    "rollup": "^3.29.4"
+    "vitest": "^0.34.6"
   }
 }
