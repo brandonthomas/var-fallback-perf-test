@@ -1,8 +1,10 @@
 import './App.css';
+import { TestThing } from './Test'
 
 function App() {
   return (
     <div className="App">
+      <TestThing/>
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
