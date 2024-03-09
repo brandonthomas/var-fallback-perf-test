@@ -1,0 +1,140 @@
+{
+  "platform": "win32",
+  "architecture": "x64",
+  "date": "2024-03-09T00:10:34.604Z",
+  "testFile": "/Test.bench.mjs",
+  "fixtureName": "fixture__m.js",
+  "fixtureParams": {
+    "seed": 4212021,
+    "minBreadth": 4,
+    "maxBreadth": 20,
+    "minDepth": 4,
+    "maxDepth": 20,
+    "targetSize": 1000
+  },
+  "testType": "mount",
+  "benchmarks": {
+    "chrome": {
+      "rawMeasurements": [
+        {
+          "javascriptTime": 191.51500000059605,
+          "layoutTime": 54.85999999940395,
+          "memory": 0,
+          "domSize": 2014,
+          "lightDomSize": 2014,
+          "shadowDomSize": 0,
+          "totalDomSize": 2014,
+          "maxLightBreadth": 19,
+          "maxLightDepth": 15,
+          "maxShadowBreadth": 0,
+          "maxShadowDepth": 0
+        },
+        {
+          "javascriptTime": 197.910000000149,
+          "layoutTime": 56.16500000283122,
+          "memory": 0,
+          "domSize": 2014,
+          "lightDomSize": 2014,
+          "shadowDomSize": 0,
+          "totalDomSize": 2014,
+          "maxLightBreadth": 19,
+          "maxLightDepth": 15,
+          "maxShadowBreadth": 0,
+          "maxShadowDepth": 0
+        },
+        {
+          "javascriptTime": 181.39000000059605,
+          "layoutTime": 68.98999999836087,
+          "memory": 0,
+          "domSize": 2014,
+          "lightDomSize": 2014,
+          "shadowDomSize": 0,
+          "totalDomSize": 2014,
+          "maxLightBreadth": 19,
+          "maxLightDepth": 15,
+          "maxShadowBreadth": 0,
+          "maxShadowDepth": 0
+        }
+      ],
+      "processedMeasurments": {
+        "javascriptTime": {
+          "average": 190.2716666671137,
+          "median": 191.51500000059605,
+          "geometricMean": 190.1492535164254,
+          "low": 181.39000000059605,
+          "high": 197.910000000149
+        },
+        "layoutTime": {
+          "average": 60.005000000198685,
+          "median": 56.16500000283122,
+          "geometricMean": 59.680974214131346,
+          "low": 54.85999999940395,
+          "high": 68.98999999836087
+        },
+        "memory": {
+          "average": 0,
+          "median": 0,
+          "geometricMean": 0,
+          "low": 0,
+          "high": 0
+        },
+        "domSize": {
+          "average": 2014,
+          "median": 2014,
+          "geometricMean": 2013.999999999999,
+          "low": 2014,
+          "high": 2014
+        },
+        "lightDomSize": {
+          "average": 2014,
+          "median": 2014,
+          "geometricMean": 2013.999999999999,
+          "low": 2014,
+          "high": 2014
+        },
+        "shadowDomSize": {
+          "average": 0,
+          "median": 0,
+          "geometricMean": 0,
+          "low": 0,
+          "high": 0
+        },
+        "totalDomSize": {
+          "average": 2014,
+          "median": 2014,
+          "geometricMean": 2013.999999999999,
+          "low": 2014,
+          "high": 2014
+        },
+        "maxLightBreadth": {
+          "average": 19,
+          "median": 19,
+          "geometricMean": 18.999999999999996,
+          "low": 19,
+          "high": 19
+        },
+        "maxLightDepth": {
+          "average": 15,
+          "median": 15,
+          "geometricMean": 15,
+          "low": 15,
+          "high": 15
+        },
+        "maxShadowBreadth": {
+          "average": 0,
+          "median": 0,
+          "geometricMean": 0,
+          "low": 0,
+          "high": 0
+        },
+        "maxShadowDepth": {
+          "average": 0,
+          "median": 0,
+          "geometricMean": 0,
+          "low": 0,
+          "high": 0
+        }
+      }
+    }
+  }
+}

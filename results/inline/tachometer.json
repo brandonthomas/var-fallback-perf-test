@@ -1,0 +1,33 @@
+{
+  "benchmarks": [
+    {
+      "name": "dist/Test.bench.mjs - fixture__m.js - mount",
+      "bytesSent": 0,
+      "measurement": {
+        "name": "window.tachometerResult",
+        "mode": "expression",
+        "expression": "window.tachometerResult"
+      },
+      "browser": {
+        "name": "chrome",
+        "headless": false,
+        "windowSize": {
+          "width": 1024,
+          "height": 768
+        },
+        "userAgent": ""
+      },
+      "mean": {
+        "low": 216.44092532980918,
+        "high": 271.01407467026536
+      },
+      "differences": [
+        null
+      ],
+      "samples": [
+        241.5800000000745,
+        245.875
+      ]
+    }
+  ]
+}
