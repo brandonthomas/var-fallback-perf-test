@@ -1,9 +1,10 @@
 // Save in button.bench.tsx
 import * as React from 'react';
+import { Button, FluentProvider, webDarkTheme } from '@fluentui/react-components';
 import './index.css'
 
 const itemRenderer: React.FC = () => {
-  return <button className='test_button_absurd'>React button</button>;
+  return <Button >React button</Button>;
 };
 
 export default itemRenderer;
